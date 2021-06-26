@@ -4,7 +4,7 @@ Minijogo de caça-níqueis feito com Swift5. Com recursos de áudio e UserDefaul
 
 
 ## Instalação
-Abra o arquivo Slot Machine.xcodeproj e execute em um iPhone ou Simulador.
+Abra o arquivo Slot Machine.xcodeproj e execute em um iPhone, iPad ou Mac OS
 Versão mínima iOS 14.4
 
 ## Design e conteúdo
