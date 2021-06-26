@@ -9,7 +9,17 @@ import SwiftUI
 
 struct Logo: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image("gfx-slot-machine")
+            .resizable()
+            .scaledToFit()
+            .frame(
+                minWidth: 256, idealWidth: 300, maxWidth: 320,
+                minHeight: 112, idealHeight: 130, maxHeight: 140,
+                alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/
+            )
+            .padding(.horizontal)
+            .layoutPriority(1)
+            .modifier(ShadowModifier())
     }
 }
 

@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB36115826852D980031ABE1 /* ReelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB36115726852D980031ABE1 /* ReelView.swift */; };
+		BB36115A268553710031ABE1 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB361159268553710031ABE1 /* InfoView.swift */; };
 		BB9B5F4426842F260003C2D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9B5F4326842F260003C2D8 /* AppDelegate.swift */; };
 		BB9B5F4626842F260003C2D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9B5F4526842F260003C2D8 /* SceneDelegate.swift */; };
 		BB9B5F4826842F260003C2D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9B5F4726842F260003C2D8 /* ContentView.swift */; };
 		BB9B5F4A26842F270003C2D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9B5F4926842F270003C2D8 /* Assets.xcassets */; };
 		BB9B5F4D26842F270003C2D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9B5F4C26842F270003C2D8 /* Preview Assets.xcassets */; };
 		BB9B5F5026842F270003C2D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB9B5F4E26842F270003C2D8 /* LaunchScreen.storyboard */; };
+		BB9B5F5F2684309E0003C2D8 /* high-score.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB9B5F572684309D0003C2D8 /* high-score.mp3 */; };
+		BB9B5F602684309E0003C2D8 /* background-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB9B5F582684309E0003C2D8 /* background-music.mp3 */; };
+		BB9B5F612684309E0003C2D8 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB9B5F592684309E0003C2D8 /* win.mp3 */; };
+		BB9B5F622684309E0003C2D8 /* riseup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB9B5F5A2684309E0003C2D8 /* riseup.mp3 */; };
+		BB9B5F632684309E0003C2D8 /* spin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB9B5F5B2684309E0003C2D8 /* spin.mp3 */; };
+		BB9B5F642684309E0003C2D8 /* casino-chips.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB9B5F5C2684309E0003C2D8 /* casino-chips.mp3 */; };
+		BB9B5F652684309E0003C2D8 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB9B5F5D2684309E0003C2D8 /* chimeup.mp3 */; };
+		BB9B5F662684309E0003C2D8 /* game-over.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB9B5F5E2684309E0003C2D8 /* game-over.mp3 */; };
+		BBC0DFD326852A9B001BE7EA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC0DFD226852A9B001BE7EA /* Extensions.swift */; };
+		BBCA8B502686487E009CFDE6 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCA8B4F2686487E009CFDE6 /* PlaySound.swift */; };
+		BBE84C2D26843B7D00E235AC /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE84C2C26843B7D00E235AC /* Logo.swift */; };
+		BBE84C2F26843BFF00E235AC /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE84C2E26843BFF00E235AC /* Modifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB36115726852D980031ABE1 /* ReelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelView.swift; sourceTree = "<group>"; };
+		BB361159268553710031ABE1 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		BB9B5F4026842F260003C2D8 /* Slot Machine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slot Machine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB9B5F4326842F260003C2D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB9B5F4526842F260003C2D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +40,18 @@
 		BB9B5F4C26842F270003C2D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BB9B5F4F26842F270003C2D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB9B5F5126842F270003C2D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB9B5F572684309D0003C2D8 /* high-score.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "high-score.mp3"; sourceTree = "<group>"; };
+		BB9B5F582684309E0003C2D8 /* background-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "background-music.mp3"; sourceTree = "<group>"; };
+		BB9B5F592684309E0003C2D8 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		BB9B5F5A2684309E0003C2D8 /* riseup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = riseup.mp3; sourceTree = "<group>"; };
+		BB9B5F5B2684309E0003C2D8 /* spin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spin.mp3; sourceTree = "<group>"; };
+		BB9B5F5C2684309E0003C2D8 /* casino-chips.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "casino-chips.mp3"; sourceTree = "<group>"; };
+		BB9B5F5D2684309E0003C2D8 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
+		BB9B5F5E2684309E0003C2D8 /* game-over.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "game-over.mp3"; sourceTree = "<group>"; };
+		BBC0DFD226852A9B001BE7EA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BBCA8B4F2686487E009CFDE6 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		BBE84C2C26843B7D00E235AC /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
+		BBE84C2E26843BFF00E235AC /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +84,11 @@
 		BB9B5F4226842F260003C2D8 /* Slot Machine */ = {
 			isa = PBXGroup;
 			children = (
+				BB9B5F69268430D60003C2D8 /* Helpers */,
+				BB9B5F68268430C60003C2D8 /* Views */,
+				BB9B5F67268430A50003C2D8 /* Sounds */,
 				BB9B5F4326842F260003C2D8 /* AppDelegate.swift */,
 				BB9B5F4526842F260003C2D8 /* SceneDelegate.swift */,
-				BB9B5F4726842F260003C2D8 /* ContentView.swift */,
 				BB9B5F4926842F270003C2D8 /* Assets.xcassets */,
 				BB9B5F4E26842F270003C2D8 /* LaunchScreen.storyboard */,
 				BB9B5F5126842F270003C2D8 /* Info.plist */,
@@ -73,6 +103,42 @@
 				BB9B5F4C26842F270003C2D8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB9B5F67268430A50003C2D8 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				BB9B5F582684309E0003C2D8 /* background-music.mp3 */,
+				BB9B5F5C2684309E0003C2D8 /* casino-chips.mp3 */,
+				BB9B5F5D2684309E0003C2D8 /* chimeup.mp3 */,
+				BB9B5F5E2684309E0003C2D8 /* game-over.mp3 */,
+				BB9B5F572684309D0003C2D8 /* high-score.mp3 */,
+				BB9B5F5A2684309E0003C2D8 /* riseup.mp3 */,
+				BB9B5F5B2684309E0003C2D8 /* spin.mp3 */,
+				BB9B5F592684309E0003C2D8 /* win.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		BB9B5F68268430C60003C2D8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB9B5F4726842F260003C2D8 /* ContentView.swift */,
+				BBE84C2C26843B7D00E235AC /* Logo.swift */,
+				BB361159268553710031ABE1 /* InfoView.swift */,
+				BB36115726852D980031ABE1 /* ReelView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB9B5F69268430D60003C2D8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BBE84C2E26843BFF00E235AC /* Modifiers.swift */,
+				BBCA8B4F2686487E009CFDE6 /* PlaySound.swift */,
+				BBC0DFD226852A9B001BE7EA /* Extensions.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,8 +198,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB9B5F632684309E0003C2D8 /* spin.mp3 in Resources */,
 				BB9B5F5026842F270003C2D8 /* LaunchScreen.storyboard in Resources */,
+				BB9B5F642684309E0003C2D8 /* casino-chips.mp3 in Resources */,
+				BB9B5F5F2684309E0003C2D8 /* high-score.mp3 in Resources */,
+				BB9B5F622684309E0003C2D8 /* riseup.mp3 in Resources */,
+				BB9B5F602684309E0003C2D8 /* background-music.mp3 in Resources */,
+				BB9B5F662684309E0003C2D8 /* game-over.mp3 in Resources */,
+				BB9B5F612684309E0003C2D8 /* win.mp3 in Resources */,
 				BB9B5F4D26842F270003C2D8 /* Preview Assets.xcassets in Resources */,
+				BB9B5F652684309E0003C2D8 /* chimeup.mp3 in Resources */,
 				BB9B5F4A26842F270003C2D8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,9 +219,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB36115A268553710031ABE1 /* InfoView.swift in Sources */,
+				BBCA8B502686487E009CFDE6 /* PlaySound.swift in Sources */,
 				BB9B5F4426842F260003C2D8 /* AppDelegate.swift in Sources */,
+				BBC0DFD326852A9B001BE7EA /* Extensions.swift in Sources */,
 				BB9B5F4626842F260003C2D8 /* SceneDelegate.swift in Sources */,
+				BBE84C2D26843B7D00E235AC /* Logo.swift in Sources */,
+				BB36115826852D980031ABE1 /* ReelView.swift in Sources */,
 				BB9B5F4826842F260003C2D8 /* ContentView.swift in Sources */,
+				BBE84C2F26843BFF00E235AC /* Modifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
