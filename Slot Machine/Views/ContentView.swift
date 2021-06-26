@@ -12,6 +12,7 @@ struct ContentView: View {
     // MARK: - Properties
     
     let symbols = ["gfx-bell","gfx-cherry","gfx-coin","gfx-grape","gfx-seven","gfx-strawberry"]
+    let haptics: UINotificationFeedbackGenerator = UINotificationFeedbackGenerator()
     
     @State private var highScore: Int = UserDefaults.standard.integer(forKey: "HighScore")
     @State private var coins: Int = 100
@@ -37,6 +38,7 @@ struct ContentView: View {
             Int.random(in: 0...symbols.count - 1)
         })
         playSound(sound: "spin", type: "mp3")
+        self.haptics.notificationOccurred(.success)
     }
     
     func checkWinning(){
@@ -78,6 +80,7 @@ struct ContentView: View {
         self.isActiveBet20 = true
         self.isActiveBet10 = false
         playSound(sound: "casino-chips", type: "mp3")
+        self.haptics.notificationOccurred(.success)
 
     }
     
@@ -86,6 +89,7 @@ struct ContentView: View {
         self.isActiveBet20 = false
         self.isActiveBet10 = true
         playSound(sound: "casino-chips", type: "mp3")
+        self.haptics.notificationOccurred(.success)
 
     }
     
